@@ -1,21 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import { App } from './routes/App';
 import './index.css';
-import App from './App'
-import './index.css';
-/* import reportWebVitals from './reportWebVitals'; */
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    /* ReactDom esta renderizando el componente que se llama App*/
-    <App/>,
-   
-  
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
 );
-
-
-
-
-
-
